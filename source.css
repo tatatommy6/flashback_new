@@ -1,0 +1,47 @@
+.back_ground_img{
+    width: 100%;
+    height: 730px;
+    margin-top: 0;
+    background-image: url("img/bgi.png");
+    background-size: cover;
+    
+}
+
+.hero{
+    margin-top: 300px;
+    margin-left: 330px;
+}
+
+.hero-title{
+    font-family: "Inria Serif", serif;
+    font-size: 60px;
+    font-style: normal;
+    color:white;
+}
+
+.button{
+    width: 400px;
+    display: flex;
+    .btn{
+        margin-right: 23px;
+    }
+}
+
+.description{/*왜 이게 이미지야*/
+    width: 100%;
+    background-color: black;
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+    color:white;
+    display: flex;
+    div{
+        margin-top: 50px;
+        width: 20%;
+        margin-left: 10%;
+        p{
+            margin-top: 10px;
+            width: 70%;
+            margin-bottom: 40px;
+        }
+    }
+}
