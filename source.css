@@ -7,7 +7,8 @@
 }
 
 .hero{
-    margin-top: 300px;
+    margin-top: 230px;
+    margin-left: 27%;
     width: 65%;
 }
 
@@ -47,9 +48,9 @@
     }
 }
 
-.back_ground_img2{
+.blur-bg-img{
     width: 100%;
-    height: 1760px;
+    height: 1500px;
     background-color: black;
     background-image: url("img/2bgi.png");
 }
@@ -95,18 +96,16 @@
 }
 
 .test_img{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    width: 80%;
 }
 
 .img_prompt{
     color:white;
     font-family: "Inria Serif", serif;
     display: flex;
-    margin-left: 190px;
+    margin-left: 170px;
+    margin-top: 310px;
 }
-
 
 .back_ground_img3{
     background-color: black;
@@ -135,13 +134,12 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
 }
 
 .example_container{
     display: flex;
     justify-content: flex-start;
-    width: 600px;
+    width: 700px;
     align-items: center;
 }
 .outpainting{
@@ -153,8 +151,17 @@
     color:white;
     font-family: "Inria Serif", serif;
 }
+
 hr{
     color: white;
     height: 20px;
-    width: 600px;
+}
+
+.sample{
+    color:rgb(0, 0, 0);
+    font-family: "Inria Serif", serif;
+    background-color: #d9d9d9;
+    font-size: 85px;
+    margin: 10px;
+    margin-bottom: 250px;
 }
