@@ -4,12 +4,12 @@
     margin-top: 0;
     background-image: url("img/bgi.png");
     background-size: cover;
-    
 }
 
 .hero{
-    margin-top: 300px;
-    margin-left: 330px;
+    margin-top: 230px;
+    margin-left: 27%;
+    width: 65%;
 }
 
 .hero-title{
@@ -27,17 +27,19 @@
     }
 }
 
-.description{/*왜 이게 이미지야*/
+.description{
     width: 100%;
     background-color: black;
     font-family: "Inria Serif", serif;
     font-style: normal;
     color:white;
     display: flex;
+    justify-content: center;
     div{
         margin-top: 50px;
         width: 20%;
-        margin-left: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         p{
             margin-top: 10px;
             width: 70%;
@@ -46,42 +48,34 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-/*2번째 페이지!*/
-
-.back_ground_img2{
+.blur-bg-img{
     width: 100%;
-    height: 1760px;
+    height: 1500px;
     background-color: black;
     background-image: url("img/2bgi.png");
-    /* background-size: cover; */
-    
 }
 
-.button{
-    width: 400px;
-    display: flex;
-    .btn{
-        margin-right: 23px;
-    }
-}
-
-.top_bar2{
-    background-color: black;
+.top_bar{
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    div{
+        display: flex;
+        margin-left: 2%;
+        margin-right: 2%;
+        .dropdown{
+            font-family: "Inria Serif", serif;
+            font-style: normal;
+            color:white;
+            margin-right: 50px;
+            font-size:25px;
+        }
+    }
+    img{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
 }
 
 .text{
@@ -102,18 +96,16 @@
 }
 
 .test_img{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    width: 80%;
 }
 
 .img_prompt{
     color:white;
     font-family: "Inria Serif", serif;
     display: flex;
-    margin-left: 190px;
+    margin-left: 170px;
+    margin-top: 310px;
 }
-
 
 .back_ground_img3{
     background-color: black;
@@ -142,13 +134,12 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
 }
 
 .example_container{
     display: flex;
     justify-content: flex-start;
-    width: 600px;
+    width: 700px;
     align-items: center;
 }
 .outpainting{
@@ -160,13 +151,17 @@
     color:white;
     font-family: "Inria Serif", serif;
 }
+
 hr{
     color: white;
     height: 20px;
-    width: 600px;
 }
 
-.sample_img{
-    image
+.sample{
+    color:rgb(0, 0, 0);
+    font-family: "Inria Serif", serif;
+    background-color: #d9d9d9;
+    font-size: 85px;
+    margin: 10px;
+    margin-bottom: 250px;
 }
-
