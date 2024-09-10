@@ -7,7 +7,7 @@
 }
 
 .hero{
-    margin-top: 300px;
+    margin-top: 290px;
     margin-left: 25%;
     width: 65%;
 }
@@ -191,4 +191,17 @@ hr{
     font-size: 85px;
     margin: 10px;
     margin-bottom: 250px;
+}
+
+.left{
+    background-color: black;
+    width: 520px;
+    height: 1080px;
+    color: white;
+}
+
+.img-button{
+    background: url("img/Button.png") no-repeat;
+    width: 451.85px;
+    height: 94px;
 }
