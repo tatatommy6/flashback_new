@@ -128,15 +128,13 @@
 }
 
 .test_img{
-    width: 80%;
+    width: 100%;
 }
 
 .img_prompt{
     color:white;
     font-family: "Inria Serif", serif;
     display: flex;
-    margin-left: 170px;
-    margin-top: 310px;
 }
 
 .back_ground_img3{
@@ -196,7 +194,7 @@ hr{
 .left{
     background-color: black;
     width: 520px;
-    height: 1080px;
+    height: 695px;
     color: white;
 }
 
@@ -204,4 +202,38 @@ hr{
     background: url("img/Button.png") no-repeat;
     width: 451.85px;
     height: 94px;
+    margin-top: 30px;
+}
+
+#input-form{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.custom-input{
+    margin-top: 20px;
+
+    h5{
+        font-family: "Inria Serif", serif;
+    }
+    label{
+        font-family: "Inria Serif", serif;
+        width: 471px;
+        height: 145px;
+        background-color: #181612;
+        color: #33353b;
+        font-size: 36px;
+        text-align: center;
+        line-height: 145px;
+    }
+    input{
+        display: none;
+    }
+    textarea{
+        width: 471px;
+        height: 145px;
+        background-color: #181612;
+        border-color: #181612;
+        color: aliceblue;
+    }
 }
