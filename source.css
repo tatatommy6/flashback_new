@@ -194,7 +194,7 @@ hr{
 .left{
     background-color: black;
     width: 520px;
-    height: 695px;
+    height: 1000px;
     color: white;
 }
 
@@ -236,4 +236,25 @@ hr{
         border-color: #181612;
         color: aliceblue;
     }
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    height: 1000px;
+    width: 1300px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    margin-top: 100px;
+    width: 882px;
+    height: 450px;
 }
