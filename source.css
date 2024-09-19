@@ -202,14 +202,6 @@ hr{
 
 
 /* input.html */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: black;
-    font-family: "Inria Serif", serif;
-}
 
 .container {
     display: flex;
@@ -222,7 +214,7 @@ body {
 
 .left {
     background-color: black;
-    width: 520px;
+    width: 30%;
     height: 100vh;
     border-right: 5px solid white;
     padding-right: 20px;
@@ -278,7 +270,6 @@ body {
     align-items: center;
     background-color: black;
     padding: 20px;
-    height: 1000px;
     width: 1300px;
 }
 
