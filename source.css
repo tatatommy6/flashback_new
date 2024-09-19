@@ -220,6 +220,7 @@ body {
 .left {
     background-color: black;
     width: 520px;
+    height: 100vh;
     padding: 20px;
     border-right: 5px solid white;
 }
