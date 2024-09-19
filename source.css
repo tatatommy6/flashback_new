@@ -191,18 +191,45 @@ hr{
     margin-bottom: 250px;
 }
 
-.left{
-    background-color: black;
-    width: 520px;
-    height: 1000px;
-    color: white;
+
+
+
+
+
+
+
+
+
+
+/* input.html */
+* {
+    box-sizing: border-box;
 }
 
-.img-button{
+body {
+    background-color: black;
+    font-family: "Inria Serif", serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    color: black;
+}
+
+.left {
+    background-color: black;
+    width: 520px;
+    padding: 20px;
+    border-right: 5px solid white;
+}
+
+.img-button {
     background: url("img/Button.png") no-repeat;
     width: 451.85px;
     height: 94px;
     margin-top: 30px;
+    border: none;
 }
 
 #input-form{
@@ -212,7 +239,6 @@ hr{
 
 .custom-input{
     margin-top: 20px;
-
     h5{
         font-family: "Inria Serif", serif;
     }
@@ -238,7 +264,6 @@ hr{
     }
 }
 
-
 .right {
     display: flex;
     flex-direction: column;
@@ -250,11 +275,44 @@ hr{
 }
 
 .image-container {
+    margin-top: 100px;
     margin-bottom: 20px;
+    img{
+        width: 882px;
+        height: 450px;
+    }
 }
 
-.image-container img {
-    margin-top: 100px;
+.storyboard {
     width: 882px;
-    height: 450px;
+    color: white;
+    h5{
+        font-family: "Inria Serif", serif;
+        margin-bottom: 10px;
+    }
+    textarea{
+        width: 100%;
+        height: 145px;
+        background-color: #181612;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.buttons .button-vr,
+.buttons .button-next {
+    background: url("img/Button.png") no-repeat;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
 }
