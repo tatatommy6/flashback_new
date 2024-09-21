@@ -103,32 +103,40 @@
     }
 }
 
-.blur-bg-img{
-    width: 100%;
-    height: 1500px;
-    background-color: black;
-    background-image: url("img/2bgi.png");
-}
 
 .text{
     /* margin: 20px; */
     display: flex;
-    height: 170px;
+    height: 120px;
     align-items: flex-end;
     justify-content: space-around;
     font-family: "Inria Serif", serif;
     color: white;
 }
 .text1{
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     font-family: "Inria Serif", serif;
     color: white;
 }
 
+.img_container{
+    margin-top: 12px;
+    width: 60%;
+    margin-right: 10%;
+    margin-left: 16%;
+}
+
 .test_img{
+    width: 110%;
+}
+
+.blur-bg-img{
     width: 100%;
+    height: 1000px;
+    background-color: black;
+    background-image: url("img/2bgi.png");
 }
 
 .img_prompt{
