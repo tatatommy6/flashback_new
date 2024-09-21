@@ -1,10 +1,10 @@
-const awfeawe = `<img class="output-image" src="/img/test_image.png"/>
+const awfeawe = `<img class="output-image rounded-4" src="/img/test_image.png"/>
         <div class="storyboard">
           <h5>Explain Storyboard</h5>
           <textarea placeholder="Describe the storyboard here"></textarea>
           <div class="buttons">
-            <button class="button-vr" onclick="">Make VR</button>
-            <button class="button-next" onclick="">Next</button>
+            <button class="button-vr" onclick=""></button>
+            <button class="button-next" onclick=""></button>
           </div>
         </div>
       </div>`
