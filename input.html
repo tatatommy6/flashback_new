@@ -17,38 +17,28 @@
           <a href="/index.html">
           <img src="img/small_logo.png" width="140"/></a>
         </div>
-        <form action="/post_image" method="post" enctype="multipart/form-data" id="input-form">
+        <div id="input-form">
           <div class="form-check form-switch">
             <label class="form-check-label" for="flexSwitchCheckDefault">Remix mode</label>
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
           </div>
           <div class="custom-input">
             <h5>Upload Image</h5>
-            <label class="rounded-3" for="image">Upload</label>
-            <input type="file" id="image" name="image">
+            <label class="rounded-3" for="image-input">Upload</label>
+            <input type="file" id="image-input" name="image">
           </div>
           <div class="custom-input">
             <h5>Explain Your image</h5>
-            <textarea class="rounded-3" name="prompt" form="input-form" placeholder="Explain The background you would like to add around"></textarea>
+            <textarea class="rounded-3" id="prompt-input" form="input-form" placeholder="Explain The background you would like to add around"></textarea>
           </div>
-          <input type="submit" class="img-button" value="" onclick="alert('클릭!')">
-        </form>
+          <input type="submit" class="img-button" value="" onclick="generate()">
+        </div>
       </div>
-      <div class="right">
-        <div class="image-container">
-          <img src="/img/test_image.png"/>
-        </div>
-        <div class="storyboard">
-          <h5>Explain Storyboard</h5>
-          <textarea placeholder="Describe the storyboard here"></textarea>
-          <div class="buttons">
-            <button class="button-vr">Make VR</button>
-            <button class="button-next">Next</button>
-          </div>
-        </div>
+      <div id="right">
+        <h2>인풋에너으세요ㅛ</h2>
       </div>
     </div>
-
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
